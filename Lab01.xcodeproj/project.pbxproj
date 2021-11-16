@@ -7,20 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DAEBF4982742212F006A9DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4972742212F006A9DE7 /* AppDelegate.swift */; };
+		DAEBF4982742212F006A9DE7 /* Lab01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4972742212F006A9DE7 /* Lab01App.swift */; };
 		DAEBF49A2742212F006A9DE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4992742212F006A9DE7 /* ContentView.swift */; };
 		DAEBF49C2742212F006A9DE7 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF49B2742212F006A9DE7 /* Experience.rcproject */; };
 		DAEBF49E27422130006A9DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEBF49D27422130006A9DE7 /* Assets.xcassets */; };
 		DAEBF4A127422130006A9DE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEBF4A027422130006A9DE7 /* Preview Assets.xcassets */; };
+		DAEBF4B227422852006A9DE7 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4B127422852006A9DE7 /* ControlView.swift */; };
+		DAEBF4B4274232D8006A9DE7 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4B3274232D8006A9DE7 /* BrowseView.swift */; };
+		DAEBF4B6274235C9006A9DE7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4B5274235C9006A9DE7 /* Model.swift */; };
+		DAEBF4B82742419C006A9DE7 /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4B72742419C006A9DE7 /* PlacementSettings.swift */; };
+		DAEBF4BA2742452E006A9DE7 /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4B92742452E006A9DE7 /* PlacementView.swift */; };
+		DAEBF4BD27424839006A9DE7 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = DAEBF4BC27424839006A9DE7 /* FocusEntity */; };
+		DAEBF4BF2742F5E4006A9DE7 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4BE2742F5E4006A9DE7 /* CustomARView.swift */; };
+		DAEBF4C12743037D006A9DE7 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4C02743037D006A9DE7 /* View+Extensions.swift */; };
+		DAEBF4C327430757006A9DE7 /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4C227430757006A9DE7 /* SessionSettings.swift */; };
+		DAEBF4C527430823006A9DE7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4C427430823006A9DE7 /* SettingsView.swift */; };
+		DAEBF4C827431C9C006A9DE7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DAEBF4C727431C9C006A9DE7 /* FirebaseAuth */; };
+		DAEBF4CA27431C9C006A9DE7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DAEBF4C927431C9C006A9DE7 /* FirebaseFirestore */; };
+		DAEBF4CC27431C9C006A9DE7 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DAEBF4CB27431C9C006A9DE7 /* FirebaseFirestoreSwift-Beta */; };
+		DAEBF4CE27431C9C006A9DE7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DAEBF4CD27431C9C006A9DE7 /* FirebaseStorage */; };
+		DAEBF4D027431C9C006A9DE7 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DAEBF4CF27431C9C006A9DE7 /* FirebaseStorageSwift-Beta */; };
+		DAEBF4D427433698006A9DE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAEBF4D327433698006A9DE7 /* GoogleService-Info.plist */; };
+		DAEBF4D627433A61006A9DE7 /* ModelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4D527433A61006A9DE7 /* ModelsViewModel.swift */; };
+		DAEBF4D827433EDE006A9DE7 /* FirebaseStorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4D727433EDE006A9DE7 /* FirebaseStorageHelper.swift */; };
+		DAEBF4DA2743467E006A9DE7 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEBF4D92743467E006A9DE7 /* ARViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAEBF4942742212F006A9DE7 /* Lab01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab01.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAEBF4972742212F006A9DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAEBF4972742212F006A9DE7 /* Lab01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab01App.swift; sourceTree = "<group>"; };
 		DAEBF4992742212F006A9DE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAEBF49B2742212F006A9DE7 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		DAEBF49D27422130006A9DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAEBF4A027422130006A9DE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAEBF4B127422852006A9DE7 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		DAEBF4B3274232D8006A9DE7 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		DAEBF4B5274235C9006A9DE7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DAEBF4B72742419C006A9DE7 /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		DAEBF4B92742452E006A9DE7 /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		DAEBF4BE2742F5E4006A9DE7 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		DAEBF4C02743037D006A9DE7 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		DAEBF4C227430757006A9DE7 /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
+		DAEBF4C427430823006A9DE7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DAEBF4D327433698006A9DE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAEBF4D527433A61006A9DE7 /* ModelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsViewModel.swift; sourceTree = "<group>"; };
+		DAEBF4D727433EDE006A9DE7 /* FirebaseStorageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageHelper.swift; sourceTree = "<group>"; };
+		DAEBF4D92743467E006A9DE7 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +60,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEBF4BD27424839006A9DE7 /* FocusEntity in Frameworks */,
+				DAEBF4CC27431C9C006A9DE7 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				DAEBF4C827431C9C006A9DE7 /* FirebaseAuth in Frameworks */,
+				DAEBF4CE27431C9C006A9DE7 /* FirebaseStorage in Frameworks */,
+				DAEBF4CA27431C9C006A9DE7 /* FirebaseFirestore in Frameworks */,
+				DAEBF4D027431C9C006A9DE7 /* FirebaseStorageSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,10 +91,23 @@
 		DAEBF4962742212F006A9DE7 /* Lab01 */ = {
 			isa = PBXGroup;
 			children = (
-				DAEBF4972742212F006A9DE7 /* AppDelegate.swift */,
+				DAEBF4972742212F006A9DE7 /* Lab01App.swift */,
 				DAEBF4992742212F006A9DE7 /* ContentView.swift */,
+				DAEBF4D92743467E006A9DE7 /* ARViewContainer.swift */,
+				DAEBF4D727433EDE006A9DE7 /* FirebaseStorageHelper.swift */,
+				DAEBF4C427430823006A9DE7 /* SettingsView.swift */,
+				DAEBF4BE2742F5E4006A9DE7 /* CustomARView.swift */,
+				DAEBF4B127422852006A9DE7 /* ControlView.swift */,
+				DAEBF4B3274232D8006A9DE7 /* BrowseView.swift */,
+				DAEBF4C227430757006A9DE7 /* SessionSettings.swift */,
+				DAEBF4B92742452E006A9DE7 /* PlacementView.swift */,
+				DAEBF4B72742419C006A9DE7 /* PlacementSettings.swift */,
+				DAEBF4B5274235C9006A9DE7 /* Model.swift */,
+				DAEBF4D527433A61006A9DE7 /* ModelsViewModel.swift */,
+				DAEBF4C02743037D006A9DE7 /* View+Extensions.swift */,
 				DAEBF49B2742212F006A9DE7 /* Experience.rcproject */,
 				DAEBF49D27422130006A9DE7 /* Assets.xcassets */,
+				DAEBF4D327433698006A9DE7 /* GoogleService-Info.plist */,
 				DAEBF49F27422130006A9DE7 /* Preview Content */,
 			);
 			path = Lab01;
@@ -86,6 +137,14 @@
 			dependencies = (
 			);
 			name = Lab01;
+			packageProductDependencies = (
+				DAEBF4BC27424839006A9DE7 /* FocusEntity */,
+				DAEBF4C727431C9C006A9DE7 /* FirebaseAuth */,
+				DAEBF4C927431C9C006A9DE7 /* FirebaseFirestore */,
+				DAEBF4CB27431C9C006A9DE7 /* FirebaseFirestoreSwift-Beta */,
+				DAEBF4CD27431C9C006A9DE7 /* FirebaseStorage */,
+				DAEBF4CF27431C9C006A9DE7 /* FirebaseStorageSwift-Beta */,
+			);
 			productName = Lab01;
 			productReference = DAEBF4942742212F006A9DE7 /* Lab01.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +173,10 @@
 				Base,
 			);
 			mainGroup = DAEBF48B2742212F006A9DE7;
+			packageReferences = (
+				DAEBF4BB27424839006A9DE7 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				DAEBF4C627431C9C006A9DE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DAEBF4952742212F006A9DE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,6 +193,7 @@
 			files = (
 				DAEBF4A127422130006A9DE7 /* Preview Assets.xcassets in Resources */,
 				DAEBF49E27422130006A9DE7 /* Assets.xcassets in Resources */,
+				DAEBF4D427433698006A9DE7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +204,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEBF4D827433EDE006A9DE7 /* FirebaseStorageHelper.swift in Sources */,
 				DAEBF49A2742212F006A9DE7 /* ContentView.swift in Sources */,
-				DAEBF4982742212F006A9DE7 /* AppDelegate.swift in Sources */,
+				DAEBF4B82742419C006A9DE7 /* PlacementSettings.swift in Sources */,
+				DAEBF4D627433A61006A9DE7 /* ModelsViewModel.swift in Sources */,
+				DAEBF4C327430757006A9DE7 /* SessionSettings.swift in Sources */,
+				DAEBF4BA2742452E006A9DE7 /* PlacementView.swift in Sources */,
+				DAEBF4B227422852006A9DE7 /* ControlView.swift in Sources */,
+				DAEBF4BF2742F5E4006A9DE7 /* CustomARView.swift in Sources */,
+				DAEBF4B4274232D8006A9DE7 /* BrowseView.swift in Sources */,
+				DAEBF4B6274235C9006A9DE7 /* Model.swift in Sources */,
+				DAEBF4982742212F006A9DE7 /* Lab01App.swift in Sources */,
+				DAEBF4C527430823006A9DE7 /* SettingsView.swift in Sources */,
+				DAEBF4C12743037D006A9DE7 /* View+Extensions.swift in Sources */,
 				DAEBF49C2742212F006A9DE7 /* Experience.rcproject in Sources */,
+				DAEBF4DA2743467E006A9DE7 /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +352,7 @@
 				DEVELOPMENT_TEAM = S8J88V7AGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use Augmented Reality, this app needs access to your camera.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -307,7 +383,7 @@
 				DEVELOPMENT_TEAM = S8J88V7AGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use Augmented Reality, this app needs access to your camera.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -349,6 +425,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAEBF4BB27424839006A9DE7 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		DAEBF4C627431C9C006A9DE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAEBF4BC27424839006A9DE7 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAEBF4BB27424839006A9DE7 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+		DAEBF4C727431C9C006A9DE7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAEBF4C627431C9C006A9DE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DAEBF4C927431C9C006A9DE7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAEBF4C627431C9C006A9DE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DAEBF4CB27431C9C006A9DE7 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAEBF4C627431C9C006A9DE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		DAEBF4CD27431C9C006A9DE7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAEBF4C627431C9C006A9DE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		DAEBF4CF27431C9C006A9DE7 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAEBF4C627431C9C006A9DE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAEBF48C2742212F006A9DE7 /* Project object */;
 }
